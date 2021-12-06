@@ -47,5 +47,6 @@ class MainActivity : AppCompatActivity() {
         }else{
             Toast.makeText(this,"WhatsApp is Not Installed" , Toast.LENGTH_LONG).show()
         }
+        finish()
     }
 }
